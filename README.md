@@ -1,7 +1,6 @@
 # ESP32_examples 
-Examples prepared for workshop content. The examples are built for ESP32-WROOM-32E Dev Kit and Arduino IDE. 
+Examples prepared for workshop content. The examples are built for ESP32-WROOM-32E Dev Kit and Arduino IDE. For setup of Arduino IDE for ESP32, visit [Espressif Arduino Repository](https://github.com/espressif/arduino-esp32/tree/master) and [Getting Started Guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html).
 
----
 ## Content
 1. Basic LED
     - Push button once to toggle between on and off LED
