@@ -23,6 +23,9 @@ void loop() {
       digitalWrite(LED, LOW); //when buttonState is 0, off the LED
       Serial.println("*** Light Off ***");
     }
+    while (digitalRead(button) != 1){
+      delay (100);
+    }
   delay(100);
   }
 }
