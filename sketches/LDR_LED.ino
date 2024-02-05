@@ -1,4 +1,4 @@
-#define LIGHT_SENSOR_PIN 4
+#define LIGHT_SENSOR_PIN 12
 
 // LDR Characteristics
 const float GAMMA = 0.5;
