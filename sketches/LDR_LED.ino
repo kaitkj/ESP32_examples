@@ -4,7 +4,7 @@
 const float GAMMA = 0.5;
 const float RL10 = 5;
 
-static int myled = 2; //GPIO for LED
+static int myled = 14; //GPIO for LED
 
 void setup() {
   // initialize serial communication at 115200 bits per second
