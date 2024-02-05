@@ -6,7 +6,7 @@
 
 BluetoothSerial SerialBT;
 
-int LED = 2;
+int LED = 14;
 bool incomingState;
 
 void setup() {
