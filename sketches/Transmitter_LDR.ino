@@ -10,8 +10,8 @@ String MACadd = "48:E7:29:3F:AC:5E";//Write receiver side MAC address
 uint8_t address[6]  = {0x48, 0xE7, 0x29, 0x3F, 0xAC, 0x5E};//Write Receiver side MAC address in HEX
 bool connected;
 
-#define LIGHT_SENSOR_PIN 4
-int button = 15;
+#define LIGHT_SENSOR_PIN 12
+int button = 27;
 bool buttonState = 0; //start at off
 
 // LDR Characteristics
