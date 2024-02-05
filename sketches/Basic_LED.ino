@@ -1,5 +1,5 @@
-int button = 15; //declare button to pin 15
-int LED = 2; //declare LED to pin 2
+int button = 27; //declare button to pin 27
+int LED = 14; //declare LED to pin 14
 bool buttonState = 0; //start at off
 
 void setup() {
