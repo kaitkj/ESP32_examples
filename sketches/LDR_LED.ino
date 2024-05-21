@@ -1,10 +1,14 @@
-#define LIGHT_SENSOR_PIN 12
+#if CONFIG_IDF_TARGET_ESP32S3
+  static int myled = 5; //GPIO for LED
+  #define LIGHT_SENSOR_PIN 6
+#else
+  static int myled = 14; //GPIO for LED
+  #define LIGHT_SENSOR_PIN 12
+#endif
 
 // LDR Characteristics
 const float GAMMA = 0.5;
 const float RL10 = 5;
-
-static int myled = 14; //GPIO for LED
 
 void setup() {
   // initialize serial communication at 115200 bits per second
