@@ -21,6 +21,11 @@ Examples prepared for workshop content. The examples are built for ESP32-WROOM-3
 8. BLE Server Button
     - Connects to BLE Client and sends updates via notify. When the button is pressed, toggle the characteristic value to '1' or '0'
     - Only for ESP32-S3
+  
+9. Rainmaker switch and LDR
+    - Runs Rainmaker. Collects LDR sensor data, and control LED from both app and device.
+    - Only for ESP32-S3
+    - Work in progress for compatibility with ESP32
 
 ## Logistics
 
