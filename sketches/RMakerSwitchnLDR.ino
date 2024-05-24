@@ -10,8 +10,8 @@ const char *pop = "abcd1234";
 
 // GPIO for push button, virtual device and light sensor
 static int gpio_0 = 0;
-static int gpio_switch = 16;
-#define LIGHT_SENSOR_PIN 4
+static int gpio_switch = 5;
+#define LIGHT_SENSOR_PIN 6
 
 /* Variable for reading pin status*/
 bool switch_state = true;
