@@ -8,14 +8,23 @@ Examples prepared for workshop content. The examples are built for ESP32-WROOM-3
     - When in dark environment, turn on LED, else off LED
 4. Receiver LED
     - Receiver via Bluetooth Classic. When receiving '1', turn on LED. When receiving '0', turn off LED
+    - Only for ESP32
 5. Transmitter Button
     - Transmitter via Bluetooth Classic. When button press, send a signal to toggle LED on receiver
+    - Only for ESP32
 6. Transmitter LDR
     - Transmitter via Bluetooth Classic. When in dark environment, turn on LED, else off LED
+    - Only for ESP32
+7. BLE Client LED
+    - Connects to BLE Server and receives updates via notifyCallback. When receiving '1', turn on LED. When receiving '0', turn off LED
+    - Only for ESP32-S3
+8. BLE Server Button
+    - Connects to BLE Client and sends updates via notify. When the button is pressed, toggle the characteristic value to '1' or '0'
+    - Only for ESP32-S3
 
 ## Logistics
 
-1. ESP32 Dev Kit
+1. ESP32 Dev Kit OR ESP32-S3 Dev Kit
 2. Breadboard
 3. Light Dependent Resistor
 4. Push button
